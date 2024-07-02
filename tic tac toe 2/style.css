@@ -1,0 +1,59 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, rgb(255, 97, 97), rgb(9, 0, 94));
+}
+h1{
+    color: aquamarine;
+}
+hr{
+    height: 3px;
+    width: 500px;
+    border: none;
+    background-color: black;
+    background-color: rgb(0, 255, 170);
+}
+#board{
+    width: 450px;
+    height: 450px;
+    
+    margin: 0 auto;
+    display: flex;
+ 
+    flex-wrap: wrap;    
+}
+.tile {
+    width: 147px;
+    height: 147px;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+}
+
+.horizontal-line{
+    border-bottom: 3px solid black;
+}
+.vertical-line{
+    border-right: 3px solid black ;
+}
+
+.winner {
+    color: aqua;
+}
+#resetButton{
+    width: 200px;
+    height: 40px;
+    border-radius: 30px 10px / 10px 30px;
+    border: none;
+    font-size: 20px;
+    background-color: aliceblue;
+    color: rgb(0, 255, 149);
+    box-shadow: 0px 0px 10px aquamarine;
+    font-weight: 600;
+}
